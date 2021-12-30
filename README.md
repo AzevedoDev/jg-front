@@ -6,7 +6,15 @@ A ideia dessa Aplicação é uma forma de inteiração entre aluno e professor d
 
 Tela de login
 
+A tela de login pensei em fazer algo bem minimalista, para já poder diferenciar entre aluno e professor.
+
 ![Tela de Login](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220247.png?=raw)
+
+Tela do Aluno
+
+Na tela do aluno é onde vamos colher o nome do nosso pequeno gênio! é um campo obrigatório.
+
+![Tela do Aluno](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220414.png?=raw)
 
 ## Project setup
 

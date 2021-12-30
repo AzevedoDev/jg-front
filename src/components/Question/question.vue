@@ -1,10 +1,18 @@
 <template>
-  <div class="flex items-center justify-evenly h-4/5 flex-col">
-    <h2 class="text-white text-4xl font-medium w-4/5">
+  <div class="flex items-center justify-evenly h-4/5 flex-col max-w-xl w-full">
+    <h2 class="text-white text-4xl font-medium max-w-xl">
       {{ title }}
     </h2>
     <div
-      class="flex items-center w-full h-14 rounded-lg border-black border-2"
+      class="
+        flex
+        items-center
+        w-full
+        h-14
+        rounded-lg
+        border-black border-2
+        cursor-pointer
+      "
       v-for="(question, idx) in questions"
       :key="idx + 1"
       :class="question.checked ? 'bg-yellow-400' : 'bg-white'"

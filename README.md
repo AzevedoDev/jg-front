@@ -1,6 +1,6 @@
 # Projeto Jovens Gênios
 
-Esse projeto foi idealizado pelo time [Jovem Gênios](https://jovensgenios.com/) para poder avaliar seus candidatos!
+Esse projeto foi idealizado pelo time [Jovens Gênios](https://jovensgenios.com/) para poder avaliar seus candidatos!
 Eu como um bom candidato me disponibilizei para realizar esse desafio.
 A ideia dessa Aplicação é uma forma de inteiração entre aluno e professor durante as aulas, de forma simples e rápida.
 
@@ -12,9 +12,18 @@ A tela de login pensei em fazer algo bem minimalista, para já poder diferenciar
 
 Tela do Aluno
 
-Na tela do aluno é onde vamos colher o nome do nosso pequeno gênio! é um campo obrigatório.
+Na tela do aluno é onde vamos coletar o nome do nosso pequeno gênio! E claro que é um campo obrigatório.
 
 ![Tela do Aluno](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220414.png?=raw)
+
+Tela das Perguntas
+
+Aqui que vai ser onde vamos o nosso gênio vai ver as perguntas que o professor vai enviar, ele vai selecionar as perguntas que acha correta.
+
+![Tela do Aluno](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220730.png?=raw)
+![Tela de Espera](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_de_espera.png?=raw)
+![Tela de Pergunta](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_pergunta.png?=raw)
+![Tela de Resposta Selecionada](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_resposta_selecionada.png?=raw)
 
 ## Project setup
 

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-evenly items-center h-5/6 w-11/12 container"
+    class="flex flex-col justify-evenly items-center h-5/6 container w-11/12"
   >
     <Logo
       size="logo-small"
@@ -18,15 +18,25 @@
         Ainda não foi iniciado nenhuma aula. Espere seu professor.
       </p>
     </div>
-    <Question :title="'Qual desses números é par ?'" :questions="questions" />
-    <div class="h-1/5">
-      <p
-        class="text-xl font-sans text-center text-white font-medium"
-        v-if="!hasQuestions"
-      >
-        Preste atenção no professor.
-      </p>
-    </div>
+    <Question
+      v-for="(question, idx) in getQuestions"
+      :key="idx + 1"
+      :title="question.question"
+      :questions="question.answers"
+    />
+    <p
+      class="text-xl font-sans text-center text-white font-medium"
+      v-if="handleTeacherTalking"
+    >
+      Preste atenção no professor.
+    </p>
+    <Button buttonName="Continue" v-if="hasQuestions" />
+    <img
+      src="@/assets/girl-svgrepo-com.svg"
+      alt=""
+      class="w-36 animate__animated animate__backInUp"
+      v-if="handleTeacherTalking"
+    />
   </div>
 </template>
 <script lang="ts">
@@ -35,22 +45,15 @@ import store from "@/store";
 import Logo from "@/components/logo/Logo.vue";
 import router from "@/router";
 import Question from "@/components/Question/question.vue";
+import Button from "@/components/button/Button.vue";
 
 export default defineComponent({
   components: {
     Logo,
     Question,
+    Button,
   },
-  data() {
-    return {
-      questions: [
-        { option: "A. 13", value: "a", checked: true },
-        { option: "B. 27", value: "b", checked: false },
-        { option: "C. 1", value: "c", checked: true },
-        { option: "D. 32", value: "d", checked: false },
-      ],
-    };
-  },
+  store,
   computed: {
     studentName() {
       return store.state.studentName;
@@ -61,10 +64,16 @@ export default defineComponent({
     goToHome() {
       return router.push("/");
     },
+    getQuestions() {
+      return store.state.questions;
+    },
     hasQuestions() {
       if (store.state.questions.length > 0) {
         return true;
       }
+      return false;
+    },
+    handleTeacherTalking() {
       return false;
     },
   },

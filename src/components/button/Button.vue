@@ -1,8 +1,8 @@
 <template>
   <router-link
     :to="`${route}`"
-    class="w-full text-center text-2xl font-sans font-bold py-2 h-14"
-    :class="buttonType"
+    class="w-full max-w-xl text-center text-2xl font-sans font-bold py-2 h-14"
+    :class="buttonType ? buttonType : 'primary-button'"
   >
     {{ buttonName }}
   </router-link>

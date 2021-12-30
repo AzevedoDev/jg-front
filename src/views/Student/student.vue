@@ -1,18 +1,21 @@
 <template>
   <div
-    class="flex flex-col justify-evenly items-center h-5/6 w-11/12 container"
+    class="
+      flex flex-col
+      justify-evenly
+      items-center
+      h-5/6
+      max-w-xl
+      w-11/12
+      container
+    "
   >
     <Logo
       size="logo-small"
-      class="
-        fixed
-        top-3
-        left-3
-        cursor-pointer
-        animate__animated animate__backInRight
-      "
-      @click="() => goToHome"
+      class="fixed top-3 left-3 cursor-pointer"
+      @click="goToHome"
     />
+
     <div
       class="
         flex
@@ -20,8 +23,7 @@
         flex-col
         items-center
         h-1/4
-        z-10
-        animate__animated animate__backInDown animate__delay-1s
+        animate__animated animate__backInUp
       "
     >
       <h1 class="text-3xl font-sans text-white font-medium my-3">Olá Aluno!</h1>
@@ -32,7 +34,7 @@
     <img
       src="@/assets/question_1.png"
       alt=""
-      class="w-36 animate__animated animate__backInDown animate__delay-2s"
+      class="w-36 animate__animated animate__backInUp"
     />
     <div
       class="
@@ -40,8 +42,7 @@
         h-1/2
         flex flex-col
         justify-evenly
-        z-10
-        animate__animated animate__backInDown animate__delay-3s
+        animate__animated animate__backInUp
       "
     >
       <p class="text-white text-lg font-medium">

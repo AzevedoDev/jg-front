@@ -1,12 +1,12 @@
 # Projeto Jovens Gênios
 
 Esse projeto foi idealizado pelo time [Jovens Gênios](https://jovensgenios.com/) para poder avaliar seus candidatos!
-Eu como um bom candidato me disponibilizei para realizar esse desafio.
-A ideia dessa Aplicação é uma forma de inteiração entre aluno e professor durante as aulas, de forma simples e rápida.
+Eu fui convidado a realizar esse desafio.
+A ideia dessa Aplicação é inteiração entre aluno e professor durante as aulas de forma simples e rápida.
 
 ### Tela de login
 
-A tela de login pensei em fazer algo bem minimalista, para já poder diferenciar entre aluno e professor.
+A tela de login tem de ser algo bem minimalista, para já poder direcionar aluno e professor.
 
 ![Tela de Login](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220247.png?=raw)
 
@@ -22,7 +22,7 @@ Apos inserir seu nome no input anterior, o nosso jovem será direcionado para a 
 
 ### Telas de Perguntas
 
-Aqui que vai ser onde o nosso gênio vai ver as perguntas que o professor vai enviar, ele vai selecionar a resposta que acha correta.
+Aqui que vai ser onde o nosso gênio vai ver as perguntas assim selecionando a resposta que achar correta.
 
 ![Tela de Pergunta](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_pergunta.png?=raw)
 ![Tela de Resposta Selecionada](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_resposa_selecionada.png?=raw)

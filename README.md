@@ -6,7 +6,7 @@ A ideia dessa Aplicação é uma forma de inteiração entre aluno e professor d
 
 Tela de login
 
-![Tela de Login](.github/assets/Screenshot_021-12-29_220247.png)
+![Tela de Login](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220247.png?=raw)
 
 ## Project setup
 

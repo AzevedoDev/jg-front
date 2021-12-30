@@ -1,16 +1,8 @@
 <template>
   <router-link
     :to="`${route}`"
-    class="
-      rounded-xl
-      bg-indigo-700
-      w-10/12
-      text-center text-3xl
-      font-sans font-bold
-      py-2
-      m-2
-      text-white
-    "
+    class="w-full text-center text-2xl font-sans font-bold py-2 h-14"
+    :class="buttonType"
   >
     {{ buttonName }}
   </router-link>
@@ -23,6 +15,33 @@ export default defineComponent({
   props: {
     buttonName: String,
     route: String,
+    buttonType: String,
   },
 });
 </script>
+
+<style>
+.primary-button {
+  background: #fed600;
+  border-radius: 9px;
+  color: #135958;
+}
+.second-button {
+  color: #fed600;
+  border-color: #fed600;
+  border-width: 4px;
+  border-radius: 9px;
+}
+.second-button:hover {
+  display: inline-block;
+
+  animation: pulse;
+  animation-duration: 1s;
+}
+.primary-button:hover {
+  display: inline-block;
+
+  animation: pulse;
+  animation-duration: 1s;
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-evenly h-4/5 flex-col max-w-xl w-full">
-    <h2 class="text-white text-4xl font-medium max-w-xl">
+    <h2 class="text-white text-4xl font-medium max-w-xl text-center">
       {{ title }}
     </h2>
     <div

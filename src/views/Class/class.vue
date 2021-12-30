@@ -7,7 +7,7 @@
       class="fixed top-3 left-3 cursor-pointer"
       @click="() => goToHome"
     />
-    <div class="flex justify-center flex-col items-center h-1/5 z-10">
+    <div class="flex justify-center flex-col items-center">
       <h1 class="text-xl font-sans text-white font-bold my-3">
         Olá {{ studentName }}!
       </h1>
@@ -18,9 +18,7 @@
         Ainda não foi iniciado nenhuma aula. Espere seu professor.
       </p>
     </div>
-    <div class="h-2/3">
-      <Question :title="'Qual desses números é par ?'" :questions="questions" />
-    </div>
+    <Question :title="'Qual desses números é par ?'" :questions="questions" />
     <div class="h-1/5">
       <p
         class="text-xl font-sans text-center text-white font-medium"

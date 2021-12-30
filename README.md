@@ -20,10 +20,9 @@ Tela das Perguntas
 
 Aqui que vai ser onde vamos o nosso gênio vai ver as perguntas que o professor vai enviar, ele vai selecionar as perguntas que acha correta.
 
-![Tela do Aluno](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/Screenshot_2021-12-29_220730.png?=raw)
 ![Tela de Espera](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_de_espera.png?=raw)
 ![Tela de Pergunta](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_pergunta.png?=raw)
-![Tela de Resposta Selecionada](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_resposta_selecionada.png?=raw)
+![Tela de Resposta Selecionada](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_resposa_selecionada.png?=raw)
 
 ## Project setup
 

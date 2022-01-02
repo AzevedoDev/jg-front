@@ -14,7 +14,7 @@
         cursor-pointer
       "
       v-for="(question, idx) in questions"
-      @click="() => onClick(idx)"
+      @click="() => onClick(Number(id), idx)"
       :key="idx + 1"
       :class="question.checked ? 'bg-yellow-400' : 'bg-white'"
     >
@@ -42,6 +42,7 @@
 </style>
 
 <script lang="ts">
+import store from "@/store";
 import { defineComponent } from "vue";
 type QuestionsT = {
   option: string;
@@ -51,13 +52,15 @@ type QuestionsT = {
 export default defineComponent({
   props: {
     title: String,
+    id: Number,
     questions: {
       type: Array as () => Array<QuestionsT>,
     },
   },
   methods: {
-    onClick(idx: number) {
-      console.log("cliquei", idx);
+    onClick(id: number, idx: number) {
+      const props = { id, idx };
+      store.commit("updateAnswer", props);
     },
   },
 });

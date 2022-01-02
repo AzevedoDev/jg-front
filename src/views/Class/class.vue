@@ -19,10 +19,11 @@
       </p>
     </div>
     <Question
-      v-for="(question, idx) in getQuestions"
-      :key="idx + 1"
+      v-for="question in getQuestions"
+      :key="question.id"
       :title="question.question"
       :questions="question.answers"
+      :id="question.id"
     />
     <p
       class="text-xl font-sans text-center text-white font-medium"

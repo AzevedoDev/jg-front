@@ -20,7 +20,7 @@ Apos inserir seu nome no input anterior, o nosso jovem será direcionado para a 
 
 ![Tela de Espera](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_de_espera.png?=raw)
 
-### Telas de Perguntas
+### Tela de Perguntas
 
 Aqui que vai ser onde o nosso gênio vai ver as perguntas que o professor vai enviar, ele vai selecionar a resposta que acha correta.
 

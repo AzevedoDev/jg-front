@@ -14,6 +14,7 @@
         cursor-pointer
       "
       v-for="(question, idx) in questions"
+      @click="() => onClick(idx)"
       :key="idx + 1"
       :class="question.checked ? 'bg-yellow-400' : 'bg-white'"
     >
@@ -52,6 +53,11 @@ export default defineComponent({
     title: String,
     questions: {
       type: Array as () => Array<QuestionsT>,
+    },
+  },
+  methods: {
+    onClick(idx: number) {
+      console.log("cliquei", idx);
     },
   },
 });

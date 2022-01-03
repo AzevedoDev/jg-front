@@ -1,6 +1,15 @@
 import { createStore } from 'vuex';
 
-export default createStore({
+type StudentSideT = {
+  studentName: string;
+  questions: {
+    id: number;
+    question: string;
+    answers: { option: string; value: string; checked: boolean }[];
+  }[];
+};
+
+export default createStore<StudentSideT>({
   state: {
     studentName: 'Jovem Gênio',
     questions: [

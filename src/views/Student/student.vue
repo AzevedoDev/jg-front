@@ -98,7 +98,7 @@ export default defineComponent({
   methods: {
     studentName() {
       const text = this.name;
-      store.commit("changeName", text);
+      store.commit("updateName", text);
       router.push(`/class/${this.slug}`);
     },
     goToHome() {

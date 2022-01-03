@@ -36,7 +36,7 @@
       src="@/assets/girl-svgrepo-com.svg"
       alt=""
       class="w-36 animate__animated animate__backInUp"
-      v-if="handleTeacherTalking"
+      v-if="!hasQuestions"
     />
   </div>
 </template>
@@ -54,7 +54,6 @@ export default defineComponent({
     Question,
     Button,
   },
-  store,
   computed: {
     studentName() {
       return store.state.studentName;

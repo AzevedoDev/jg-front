@@ -27,6 +27,9 @@ Aqui que vai ser onde o nosso gênio vai ver as perguntas assim selecionando a r
 ![Tela de Pergunta](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_pergunta.png?=raw)
 ![Tela de Resposta Selecionada](https://github.com/AzevedoDev/jg-front/blob/main/.github/assets/tela_resposa_selecionada.png?=raw)
 
+
+Para acessar o site do portal clique [aqui](https://angry-ride-a0d529.netlify.app/)
+
 ## Project setup
 
 ```
